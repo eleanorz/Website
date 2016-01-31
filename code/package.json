@@ -20,6 +20,12 @@
     "gulp-data": "~1.2.1",
     "gulp-jade-template": "0.0.7",
     "gulp-markdown-to-json": "~0.2.1",
-    "gulp-rename": "~1.2.2"
+    "gulp-rename": "~1.2.2",
+    "gulp-run-sequence": "~0.3.2",
+    "gulp-extend": "~0.2.0",
+    "gulp-cat": "~0.3.3",
+    "gulp-jsoncombine": "~1.0.3",
+    "lodash": "~4.1.0",
+    "gulp-copy": "0.0.2"
   }
 }

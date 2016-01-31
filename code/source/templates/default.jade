@@ -1,7 +1,10 @@
 doctype html
 html(lang="en")
 	head
-		title= title
+		if title
+			title= title
+		else
+			title Aaron Sun
 		link(href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700', rel='stylesheet')
 		link(href='/assets/style.css', rel='stylesheet')
 	body
@@ -9,18 +12,23 @@ html(lang="en")
 			ul
 				li.logo
 					a(href='/') Aaron Sun
-				li
+				li(class=(section == 'philosophy') ? 'on' : '')
 					a(href='/philosophy') Philosophy
-				li
+				li(class=(section == 'technology') ? 'on' : '')
 					a(href='/technology') Technology
-				li
+				li(class=(section == 'application') ? 'on' : '')
 					a(href='/application') Application
-				li.on
+				li(class=(section == 'editorial') ? 'on' : '')
 					a(href='/editorial') Editorial
-				li
+				li(class=(section == 'about') ? 'on' : '')
 					a(href='/about') About
 		nav
 			ul
-				li Editorials
+				each page in contents
+					if page.url
+						li
+							a(href=page.url)= page.name
+					else
+						li.heading= page.name
 		article
 			div!= body

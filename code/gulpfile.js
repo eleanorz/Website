@@ -18,66 +18,137 @@ var gulp        = require('gulp'),
 
 var markdown = require('gulp-markdown-to-json');
 var clean = require('gulp-clean');
+//var extend = require('gulp-extend');
+var cat  = require('gulp-cat');
+var extend = require("./gulp-json-extend");
+var copy = require("gulp-copy");
 
 // --- Basic Tasks ---
-gulp.task('clean', function () {
-  return gulp.src('../build/', {read: false})
-    .pipe(clean({force: true}));
-});
 
-gulp.task('css', function() {
-  return gulp.src('source/stylesheets/*.scss')
-    .pipe( 
-      sass( { 
-        includePaths: ['src/assets/stylesheets'],
-        errLogToConsole: true
-      } ) )
-    //.pipe( csso() )
-    .pipe( gulp.dest('../build/assets/') )
-    .pipe( livereload( server ));
-});
 
-gulp.task('js', function() {
-  return gulp.src('source/scripts/*.js')
-    .pipe( uglify() )
-    //.pipe( concat('all.min.js'))
-    .pipe( gulp.dest('../build/assets/'))
-    .pipe( livereload( server ));
-});
+'clean'
+{
+  gulp.task('clean', function () {
+    return gulp.src('../build/', {read: false})
+      .pipe(clean({force: true}));
+  });
+}
 
-gulp.task('templates', function() {
-  return gulp.src('../writing/**/*.md')
+'css'
+{
+  gulp.task('css', function() {
+    return gulp.src('source/stylesheets/*.scss')
+      .pipe( 
+        sass( { 
+          includePaths: ['src/assets/stylesheets'],
+          errLogToConsole: true
+        } ) )
+      //.pipe( csso() )
+      .pipe( gulp.dest('../build/assets/') )
+      .pipe( livereload( server ));
+  });
+}
+
+'js'
+{
+  gulp.task('js', function() {
+    return gulp.src('source/scripts/*.js')
+      .pipe( uglify() )
+      //.pipe( concat('all.min.js'))
+      .pipe( gulp.dest('../build/assets/'))
+      .pipe( livereload( server ));
+  });
+}
+
+'public'
+{
+  gulp.task('public', function() {
+    return gulp.src('source/public/*')
+      .pipe( copy('../build/assets/', { prefix: 2 } ) )
+      .pipe( livereload( server ));
+  });
+}
+
+gulp.task('application', function() {
+  return gulp.src('../writing/application/*.md')
     .pipe(markdown())
+    .pipe(extend('../writing/application/index.json'))
+    //.pipe(cat())
     .pipe(jadetemplate({
       template: './source/templates/default.jade',
       pretty: true
     }))
-    .pipe(gulp.dest('../build/'))
+    .pipe(gulp.dest('../build/application/'))
     .pipe(rename({extname:'.html'}))
     .pipe(livereload(server));
 });
 
-gulp.task('express', function() {
-  app.use(express.static(path.resolve('../build')));
-  app.listen(1337);
-  gutil.log('Listening on port: 1337');
+gulp.task('editorial', function() {
+  return gulp.src('../writing/editorial/*.md')
+    .pipe(markdown())
+    .pipe(extend('../writing/editorial/index.json'))
+    //.pipe(cat())
+    .pipe(jadetemplate({
+      template: './source/templates/default.jade',
+      pretty: true
+    }))
+    .pipe(gulp.dest('../build/editorial/'))
+    .pipe(rename({extname:'.html'}))
+    .pipe(livereload(server));
 });
 
-gulp.task('watch', function () {
-  server.listen(35729, function (err) {
-    if (err) {
-      return console.log(err);
-    }
+gulp.task('pages', function() {
+  return gulp.src('./source/pages/*.jade')
+    .pipe(jade({
+      pretty: true
+    }))
+    .pipe(gulp.dest('../build/'))
+    .pipe(livereload(server));
+});
 
-    gulp.watch('./source/stylesheets/*.scss',['css']);
+'express'
+{
+  gulp.task('express', function() {
+    app.use(express.static(path.resolve('../build')));
+    app.use(function(req, res, next){
+      res.status(404);
 
-    gulp.watch('./source/scripts/*.js',['js']);
+      // default to plain-text. send()
+      res.type('txt').send('Not found');
+    });
+    app.listen(1337);
+    gutil.log('Listening on port: 1337');
+});
+}
 
-    gulp.watch('./source/templates/*.jade',['templates']);
-    
-    gulp.watch('../writing/**/*.md',['templates']);
+'watch'
+{
+  gulp.task('watch', function () {
+    server.listen(35729, function (err) {
+      if (err) {
+        return console.log(err);
+      }
+
+      gulp.watch('./source/stylesheets/*.scss',['css']);
+
+      gulp.watch('./source/scripts/*.js',['js']);
+
+      gulp.watch('./source/pages/*',['pages']);
+
+      gulp.watch('./source/templates/*.jade',['application', 'editorial']);
+      
+      gulp.watch('../writing/application/*',['application']);
+
+      gulp.watch('../writing/editorial/*',['editorial']);
+    });
   });
-});
+}
 
 // Default Task
-gulp.task('default', ['js','css','templates','express','watch']);
+gulp.task('default', ['js','css', 'public',
+  'application', 'editorial', 'pages',
+  'express','watch']);
+
+
+
+

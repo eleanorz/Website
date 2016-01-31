@@ -1,0 +1,91 @@
+{
+	"section" : "application",
+
+	"contents" : [
+
+		{
+			"name": "Life Segments"
+		},
+
+		{
+			"name": "Employment",
+			"url": "/application/Employment.html"
+		},
+
+
+		{
+			"name": "Education",
+			"url": "/application/Education.html"
+		},
+
+		{
+			"name": "Literature",
+			"url": "/application/Literature.html"
+		},
+
+		{
+			"name": "Arts",
+			"url": "/application/Arts.html"
+		},
+
+		{
+			"name": "Sectors"
+		},
+
+		{
+			"name": "Advertising",
+			"url": "/application/Advertising.html"
+		},
+
+		{
+			"name": "Agriculture",
+			"url": "/application/Agriculture.html"
+		},
+
+		{
+			"name": "Government",
+			"url": "/application/Government.html"
+		},
+
+		{
+			"name": "Transportation",
+			"url": "/application/Transportation.html"
+		},
+
+		{
+			"name": "Business",
+			"url": "/application/Business.html"
+		},
+
+		{
+			"name": "Manufacturing",
+			"url": "/application/Manufacturing.html"
+		},
+
+		{
+			"name": "Finance",
+			"url": "/application/Finance.html"
+		},
+
+		{
+			"name": "Accounting",
+			"url": "/application/Accounting.html"
+		},
+
+		{
+			"name": "Insurance",
+			"url": "/application/Insurance.html"
+		},
+
+		{
+			"name": "Healthcare",
+			"url": "/application/Healthcare.html"
+		},
+
+		{
+			"name": "Science",
+			"url": "/application/Science.html"
+		}
+
+	]
+}

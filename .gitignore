@@ -2,6 +2,7 @@ build
 prototype
 
 *.plist
+*.private
 
 ##### Node.js
 
