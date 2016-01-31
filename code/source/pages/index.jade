@@ -2,13 +2,15 @@ doctype html
 html(lang="en")
 	head
 		title Aaron Sun
-		link(href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700', rel='stylesheet')
-		link(href='/assets/style.css', rel='stylesheet')
+		link(rel='icon', href='/assets/icon64.png')
+		link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700')
+		link(rel='stylesheet', href='/assets/style.css')
 	body.landing
 		header
 			ul
 				li.logo
-					a(href='/') Aaron Sun
+					a(href='/')
+						img(src='/assets/logo.svg', height='20px')
 				li
 					a(href='/philosophy') Philosophy
 				li
@@ -19,6 +21,13 @@ html(lang="en")
 					a(href='/editorial') Editorial
 				li
 					a(href='/about') About
-
-		video(width='1000', height='1000', autoplay, loop, style="margin: 300px auto; display: block")
-			source(src='/assets/Himawari-8.webm', type='video/webm')
+		.parallax
+			.parallax-layer.background
+				video(width='1000', height='1000', autoplay, loop, style="margin: 450px auto; display: block")
+					source(src='/assets/Himawari-8.webm', type='video/webm')
+			.parallax-layer.base
+				.hero 
+					p &ldquo;We need a systematic approach to foster humanistic values, of oneness and harmony. If we start doing it now, there is hope that this century will be different from the previous one. It is in everybody's interest. So let us work for peace within our families and society&rdquo;
+					p - Dalai Lama
+				.meme
+			.parallax-layer.foreground

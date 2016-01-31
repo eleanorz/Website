@@ -63,7 +63,6 @@ body {
 }
 
 header {
-	border-bottom: 1px solid #aaa;
 	text-align: center;
 
 	z-index: 99;
@@ -103,7 +102,6 @@ header a {
 
 header li {
 	display: inline-block;
-	vertical-align: middle;
 
 	margin: 0 12px;
 }
@@ -116,6 +114,15 @@ header li.logo a {
 	letter-spacing: 0.08em;
 
 	color: #e7e7e7;
+}
+
+header img {
+	vertical-align: middle;
+
+	&:hover {
+		opacity: 0.5;
+		transition: opacity 0.2s;
+	}
 }
 
 header li.on {
@@ -261,6 +268,8 @@ article.boo {
 	height: 400px;
 }
 
+
+
 .landing {
 	background: #000;
 	background: url('full_disk_ahi_true_color_20160129000000.jpg') center center no-repeat #000;
@@ -270,8 +279,6 @@ article.boo {
 }
 
 .landing header {
-	border-bottom: 1px solid #333;
-	border-bottom: 1px solid rgba(0,0,0,0.9);
 	background: #000;
 	background: rgba(0,0,0,0.7);
 }
@@ -313,5 +320,99 @@ article.boo {
 	max-width: 26em;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.meme {
+	margin: 0 auto 0;
+	width: 600px;
+	height: 800px;
+
+	background: white;
+}
+
+.hero {
+	text-align: center;
+
+	font-size: 1.6em;
+	line-height: 1.5em;
+	font-weight: 300;
+
+	margin: 0 auto;
+	margin-top: 2em;
+
+	max-width: 800px;
+
+	height: 100vh;
+}
+
+
+  /* Parallax base styles
+  --------------------------------------------- */
+
+.parallax {
+	height: 500px; /* fallback for older browsers */
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+	-webkit-perspective: 300px;
+	perspective: 300px;
+	-webkit-perspective-origin-x: 100%;
+	perspective-origin-x: 100%;
+
+	color: #fff;
+}
+
+.parallax-group {
+	position: relative;
+	height: 500px; /* fallback for older browsers */
+	height: 100vh;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.parallax-layer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	-webkit-transform-origin-x: 100%;
+	transform-origin-x: 100%;
+}
+
+.parallax-layer.foreground {
+	-webkit-transform: translateZ(90px) scale(.7);
+	transform: translateZ(90px) scale(.7);
+	z-index: 1;
+}
+
+.parallax-layer.base {
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	z-index: 4;
+}
+
+.parallax-layer.background {
+	-webkit-transform: translateZ(-150px) scale(1.5);
+	transform: translateZ(-150px) scale(1.5);
+	z-index: 3;
+}
+
+.parallax-layer.deep {
+	-webkit-transform: translateZ(-600px) scale(3);
+	transform: translateZ(-600px) scale(3);
+	z-index: 2;
+}
 
 

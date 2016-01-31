@@ -1,1 +1,44 @@
-index.json
+{
+	"section" : "about",
+
+	"contents" : [
+
+		{
+			"name": "Interaction"
+		},
+
+		{
+			"name": "Contribute",
+			"url": "/editorial/A-roadmap-to-basic-income.html"
+		},
+
+		{
+			"name": "Contact",
+			"url": "/editorial/A-roadmap-to-basic-income.html"
+		},
+
+		{
+			"name": "Autobiography"
+		},
+
+		{
+			"name": "Childhood",
+			"url": "/editorial/A-roadmap-to-basic-income.html"
+		},
+
+		{
+			"name": "Memoirs"
+		},
+
+		{
+			"name": "Visions of the future",
+			"url": "/editorial/A-roadmap-to-basic-income.html"
+		},
+
+		{
+			"name": "Time traveling in Inner Mongolia",
+			"url": "/editorial/A-roadmap-to-basic-income.html"
+		}
+
+	]
+}

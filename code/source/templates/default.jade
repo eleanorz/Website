@@ -5,13 +5,15 @@ html(lang="en")
 			title= title
 		else
 			title Aaron Sun
-		link(href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700', rel='stylesheet')
-		link(href='/assets/style.css', rel='stylesheet')
+		link(rel='icon', href='/assets/icon64.png')
+		link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700')
+		link(rel='stylesheet', href='/assets/style.css')
 	body
 		header
 			ul
 				li.logo
-					a(href='/') Aaron Sun
+					a(href='/')
+						img(src='/assets/logo.svg', height='20px')
 				li(class=(section == 'philosophy') ? 'on' : '')
 					a(href='/philosophy') Philosophy
 				li(class=(section == 'technology') ? 'on' : '')

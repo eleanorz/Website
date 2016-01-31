@@ -69,17 +69,39 @@ var copy = require("gulp-copy");
   });
 }
 
+gulp.task('philosophy', function() {
+  return gulp.src('../writing/philosophy/*.md')
+    .pipe(markdown())
+    .pipe(extend('../writing/philosophy/index.json'))
+    .pipe(jadetemplate({
+      template: './source/templates/default.jade',
+      pretty: true
+    }))
+    .pipe(gulp.dest('../build/philosophy/'))
+    .pipe(livereload(server));
+});
+
+gulp.task('technology', function() {
+  return gulp.src('../writing/technology/*.md')
+    .pipe(markdown())
+    .pipe(extend('../writing/technology/index.json'))
+    .pipe(jadetemplate({
+      template: './source/templates/default.jade',
+      pretty: true
+    }))
+    .pipe(gulp.dest('../build/technology/'))
+    .pipe(livereload(server));
+});
+
 gulp.task('application', function() {
   return gulp.src('../writing/application/*.md')
     .pipe(markdown())
     .pipe(extend('../writing/application/index.json'))
-    //.pipe(cat())
     .pipe(jadetemplate({
       template: './source/templates/default.jade',
       pretty: true
     }))
     .pipe(gulp.dest('../build/application/'))
-    .pipe(rename({extname:'.html'}))
     .pipe(livereload(server));
 });
 
@@ -87,13 +109,23 @@ gulp.task('editorial', function() {
   return gulp.src('../writing/editorial/*.md')
     .pipe(markdown())
     .pipe(extend('../writing/editorial/index.json'))
-    //.pipe(cat())
     .pipe(jadetemplate({
       template: './source/templates/default.jade',
       pretty: true
     }))
     .pipe(gulp.dest('../build/editorial/'))
-    .pipe(rename({extname:'.html'}))
+    .pipe(livereload(server));
+});
+
+gulp.task('about', function() {
+  return gulp.src('../writing/about/*.md')
+    .pipe(markdown())
+    .pipe(extend('../writing/about/index.json'))
+    .pipe(jadetemplate({
+      template: './source/templates/default.jade',
+      pretty: true
+    }))
+    .pipe(gulp.dest('../build/about/'))
     .pipe(livereload(server));
 });
 
@@ -135,18 +167,26 @@ gulp.task('pages', function() {
 
       gulp.watch('./source/pages/*',['pages']);
 
-      gulp.watch('./source/templates/*.jade',['application', 'editorial']);
+      gulp.watch('./source/templates/*.jade',
+        ['philosophy', 'technology', 'application', 'editorial', 'about']);
+
+      gulp.watch('../writing/philosophy/*',['philosophy']);
       
+      gulp.watch('../writing/technology/*',['technology']);
+
       gulp.watch('../writing/application/*',['application']);
 
       gulp.watch('../writing/editorial/*',['editorial']);
+
+      gulp.watch('../writing/about/*',['about']);
+
     });
   });
 }
 
 // Default Task
 gulp.task('default', ['js','css', 'public',
-  'application', 'editorial', 'pages',
+  'philosophy', 'technology', 'application', 'editorial', 'about', 'pages',
   'express','watch']);
 
 

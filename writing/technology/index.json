@@ -1,0 +1,59 @@
+{
+	"section" : "technology",
+
+	"contents" : [
+
+		{
+			"name": "Products"
+		},
+
+		{
+			"name": "Ascension",
+			"url": "/editorial/Currency-is-a-human-concept.html"
+		},
+
+		{
+			"name": "Interact",
+			"url": "/editorial/Currency-is-a-human-concept.html"
+		},
+
+		{
+			"name": "Roadmap"
+		},
+
+		{
+			"name": "Symbolic computation",
+			"url": "/editorial/Currency-is-a-human-concept.html"
+		},
+
+		{
+			"name": "Cloud computation platform",
+			"url": "/editorial/A-roadmap-to-basic-income.html"
+		},
+
+		{
+			"name": "Distributed knowledge repository",
+			"url": "/application/Literature.html"
+		},
+
+		{
+			"name": "Simulation and modeling",
+			"url": "/application/Literature.html"
+		},
+
+		{
+			"name": "Statistical machine learning",
+			"url": "/application/Literature.html"
+		},
+
+		{
+			"name": "Technical white papers"
+		},
+
+		{
+			"name": "The mathematical theory of computation",
+			"url": "/application/Literature.html"
+		}
+
+	]
+}

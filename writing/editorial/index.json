@@ -69,41 +69,6 @@
 		{
 			"name": "When advertising stops being an annoyance",
 			"url": "/application/Transportation.html"
-		},
-
-		{
-			"name": "Business",
-			"url": "/application/Business.html"
-		},
-
-		{
-			"name": "Manufacturing",
-			"url": "/application/Manufacturing.html"
-		},
-
-		{
-			"name": "Finance",
-			"url": "/application/Finance.html"
-		},
-
-		{
-			"name": "Accounting",
-			"url": "/application/Accounting.html"
-		},
-
-		{
-			"name": "Insurance",
-			"url": "/application/Insurance.html"
-		},
-
-		{
-			"name": "Healthcare",
-			"url": "/application/Healthcare.html"
-		},
-
-		{
-			"name": "Science",
-			"url": "/application/Science.html"
 		}
 
 	]
