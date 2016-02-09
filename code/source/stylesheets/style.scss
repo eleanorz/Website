@@ -59,7 +59,7 @@ body {
 	padding-top: 44px;
 	padding-left: 400px;
 
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -114,15 +114,15 @@ header li.logo a {
 	letter-spacing: 0.08em;
 
 	color: #e7e7e7;
-}
-
-header img {
-	vertical-align: middle;
 
 	&:hover {
 		opacity: 0.5;
 		transition: opacity 0.2s;
 	}
+}
+
+header img {
+	vertical-align: middle;
 }
 
 header li.on {
@@ -134,7 +134,7 @@ header li.on {
 nav	{
 	position: fixed;
 
-	top: 40px;
+	top: 45px;
 	bottom: 0;
 	left: 0;
 	width: 30%;
@@ -202,6 +202,8 @@ article > div {
 article h1, article h2, article h3 {
 	margin: 10px 0 20px;
 	font-weight: bold;
+
+	line-height: 1.25em;
 }
 
 article h1 {
@@ -213,7 +215,7 @@ article h1 {
 
 }
 
-article p {
+article div > p {
 	margin: 10px 0 28px;
 	line-height: 1.8em;
 
@@ -229,12 +231,35 @@ article blockquote {
 	margin: 40px 0;
 }
 
+article blockquote p {
+	margin: 0;
+}
+
+article blockquote ul {
+	margin-left: 3em;
+	margin-bottom: 40px;
+}
+article blockquote li {
+	color: #777;
+	margin: 0.5em 0;
+	list-style: none;
+
+	font-size: 0.8em;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-indent: -1.2em;
+
+	&:before{
+		content: "\2014\00a0";
+	}
+
+}
 
 article blockquote > div {
 	text-align: center;
 }
 
-article ul {
+article ul, article ol {
 	margin-left: 2em;
 }
 
@@ -242,6 +267,14 @@ article li {
 	list-style: square;
 	line-height: 1.5em;
 	margin: 0.8em 0;
+}
+
+article ol li {
+	list-style: decimal;
+}
+
+article pre {
+	font-family: monospace;
 }
 
 .ratio
@@ -268,17 +301,18 @@ article.boo {
 	height: 400px;
 }
 
-
-
 .landing {
+	padding-top: 0;
+}
+
+.landing, .error {
 	background: #000;
-	background: url('full_disk_ahi_true_color_20160129000000.jpg') center center no-repeat #000;
 	color: #fff;
 
 	padding-left: 0;
 }
 
-.landing header {
+.landing header, .error header {
 	background: #000;
 	background: rgba(0,0,0,0.7);
 }
@@ -286,7 +320,7 @@ article.boo {
 .landing .on, .landing .logo {
 	color: #ddd;
 }
-
+/*
 .hero > * {
 	text-align: center;
 	max-width: 40em;
@@ -320,6 +354,7 @@ article.boo {
 	max-width: 26em;
 }
 
+*/
 
 
 
@@ -332,24 +367,61 @@ article.boo {
 
 
 
-
-.meme {
+.letterbox {
 	margin: 0 auto 0;
 	width: 600px;
-	height: 800px;
 
 	background: white;
+	color: #000;
+
+	padding: 60px 0 40px;
+}
+
+.letterbox h1 {
+
+	font-size: 2em;
+	font-weight: 400;
+
+	margin-bottom: 1em;
+
+	text-align: center;
+}
+
+.letterbox p {
+	padding: 0 60px 40px;
+	line-height: 1.8em;
+	text-align: left;
+}
+
+.letterbox a {
+	display: block;
+	margin: 0 auto;
+
+	line-height: 3em;
+	width: 10em;
+
+	text-align: center;
+	text-decoration: none;
+	background: #83A300;
+	color: #fff;
+
+	transition: background 0.2s;
+
+	&:hover{
+		background: #8FBE00;
+	}
 }
 
 .hero {
 	text-align: center;
 
 	font-size: 1.6em;
-	line-height: 1.5em;
+	line-height: 2em;
+	max-width: 26em;
 	font-weight: 300;
 
 	margin: 0 auto;
-	margin-top: 2em;
+	margin-top: 80px;
 
 	max-width: 800px;
 
@@ -416,3 +488,29 @@ article.boo {
 }
 
 
+
+
+
+
+
+
+
+
+
+.error {
+	padding-left: 0;
+
+	text-align: center;
+}
+
+.error h1 {
+
+}
+
+#life {
+	margin: 100px auto;
+	display: block;
+
+	height: 514px;
+	width: 514px;
+}

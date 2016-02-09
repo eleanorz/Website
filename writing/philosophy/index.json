@@ -8,23 +8,23 @@
 		},
 
 		{
-			"name": "Existance",
-			"url": "/editorial/Currency-is-a-human-concept.html"
+			"name": "Existence",
+			"url": "/philosophy/Existence.html"
 		},
 
 		{
 			"name": "Meaning",
-			"url": "/editorial/Currency-is-a-human-concept.html"
+			"url": "/philosophy/Meaning.html"
 		},
 
 		{
 			"name": "Curiosity",
-			"url": "/editorial/Currency-is-a-human-concept.html"
+			"url": "/philosophy/Curiosity.html"
 		},
 
 		{
 			"name": "Connection",
-			"url": "/editorial/Currency-is-a-human-concept.html"
+			"url": "/philosophy/Connection.html"
 		},
 
 		{
@@ -33,12 +33,12 @@
 
 		{
 			"name": "Culture",
-			"url": "/editorial/Currency-is-a-human-concept.html"
+			"url": "/philosophy/Culture.html"
 		},
 
 		{
 			"name": "Morality",
-			"url": "/editorial/Currency-is-a-human-concept.html"
+			"url": "/philosophy/Morality.html"
 		},
 
 		{
@@ -47,12 +47,12 @@
 
 		{
 			"name": "Knowledge",
-			"url": "/editorial/Currency-is-a-human-concept.html"
+			"url": "/philosophy/Knowledge.html"
 		},
 
 		{
 			"name": "Learnings",
-			"url": "/editorial/Currency-is-a-human-concept.html"
+			"url": "/philosophy/Learnings.html"
 		},
 
 		{
@@ -60,13 +60,18 @@
 		},
 
 		{
+			"name": "Convergence",
+			"url": "/philosophy/Convergence.html"
+		},
+
+		{
 			"name": "Destiny",
-			"url": "/editorial/Currency-is-a-human-concept.html"
+			"url": "/philosophy/Destiny.html"
 		},
 
 		{
 			"name": "Imperative",
-			"url": "/editorial/Currency-is-a-human-concept.html"
+			"url": "/philosophy/Imperative.html"
 		}
 
 	]

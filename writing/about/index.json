@@ -9,12 +9,17 @@
 
 		{
 			"name": "Contribute",
-			"url": "/editorial/A-roadmap-to-basic-income.html"
+			"url": "/about/Contribute.html"
 		},
 
 		{
 			"name": "Contact",
-			"url": "/editorial/A-roadmap-to-basic-income.html"
+			"url": "/about/Contact.html"
+		},
+
+		{
+			"name": "Credits",
+			"url": "/about/Credits.html"
 		},
 
 		{
@@ -23,7 +28,7 @@
 
 		{
 			"name": "Childhood",
-			"url": "/editorial/A-roadmap-to-basic-income.html"
+			"url": "/about/Childhood.html"
 		},
 
 		{
@@ -32,12 +37,21 @@
 
 		{
 			"name": "Visions of the future",
-			"url": "/editorial/A-roadmap-to-basic-income.html"
+			"url": "/about/Visions-of-the-future.html"
 		},
 
 		{
 			"name": "Time traveling in Inner Mongolia",
-			"url": "/editorial/A-roadmap-to-basic-income.html"
+			"url": "/about/Time-traveling-in-Inner-Mongolia.html"
+		},
+
+		{
+			"name": "Appendix"
+		},
+
+		{
+			"name": "Markdown Samples",
+			"url": "/about/Sample.html"
 		}
 
 	]

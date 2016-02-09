@@ -9,3 +9,4 @@
 - The children in the middle can be nudged towards certain professions so that the proper supply to demand ration can be maintained when they are adults
 - This will also give them more options and choices in their education. Activities that they are vested in will be attached with much more enthusiasm and accelerated the pace of learning
 - This will converge with gaming. Motivation can come from game design theory and be constructed in a way where they stay positively engaged 
+- John Dewey in Experience and Education

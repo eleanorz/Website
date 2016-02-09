@@ -4,17 +4,17 @@
 	"contents" : [
 
 		{
-			"name": "Products"
+			"name": "Projects"
 		},
 
 		{
 			"name": "Ascension",
-			"url": "/editorial/Currency-is-a-human-concept.html"
+			"url": "/technology/Ascension.html"
 		},
 
 		{
 			"name": "Interact",
-			"url": "/editorial/Currency-is-a-human-concept.html"
+			"url": "/technology/Interact.html"
 		},
 
 		{
@@ -22,37 +22,46 @@
 		},
 
 		{
-			"name": "Symbolic computation",
-			"url": "/editorial/Currency-is-a-human-concept.html"
+			"name": "Symbolic notation",
+			"url": "/technology/Symbolic-notation.html"
+		},
+
+		{
+			"name": "Emergent complexity",
+			"url": "/technology/Emergent-complexity.html"
 		},
 
 		{
 			"name": "Cloud computation platform",
-			"url": "/editorial/A-roadmap-to-basic-income.html"
+			"url": "/technology/Cloud-computation-platform.html"
 		},
 
 		{
 			"name": "Distributed knowledge repository",
-			"url": "/application/Literature.html"
+			"url": "/technology/Distributed-knowledge-repository.html"
 		},
 
 		{
 			"name": "Simulation and modeling",
-			"url": "/application/Literature.html"
+			"url": "/technology/Simulation-and-modeling.html"
 		},
 
 		{
 			"name": "Statistical machine learning",
-			"url": "/application/Literature.html"
+			"url": "/technology/Statistical-machine-learning.html"
 		},
 
 		{
-			"name": "Technical white papers"
+			"name": "Foundations"
 		},
 
 		{
 			"name": "The mathematical theory of computation",
-			"url": "/application/Literature.html"
+			"url": "/technology/The-mathematical-theory-of-computation.html"
+		},
+
+		{
+			"name": "Technical white papers"
 		}
 
 	]
