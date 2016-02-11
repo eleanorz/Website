@@ -8,11 +8,11 @@ This is the necessary thing to do. I will chase it even if the economic system h
 
 This is the things that need to be done.
 
+> Educating the mind without educating the heart is no education at all.
+> - Aristotle
+
 > The greatest threat to our planet is the belief that someone else will save it.
 > - Robert Swan
-
-
-
 
 > There are no passengers on spaceship earth. We are all crew.
 > - Marshall McLuhan
@@ -24,6 +24,8 @@ This is the things that need to be done.
 > One doesn't discover new lands without consenting to lose sight, for a very long time, of the shore.
 > - André Gide, French author and Nobel Prize winner
 
+> If I have seen further, it is by standing on the shoulders of giants.
+>  - Issac Newton
 
 
 ## Motivation

@@ -191,6 +191,13 @@ article {
 
 }
 
+em {
+	font-style: oblique;
+}
+
+strong {
+	font-weight: 600;
+}
 
 article > div {
 
@@ -200,19 +207,24 @@ article > div {
 }
 
 article h1, article h2, article h3 {
-	margin: 10px 0 20px;
+	margin: 40px 0 20px;
 	font-weight: bold;
 
 	line-height: 1.25em;
 }
 
 article h1 {
-
 	font-size: 2em;
 	font-weight: 400;
 
 	margin-top: 1.5em;
+}
 
+article h2 {
+	font-size: 1.2em;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
 }
 
 article div > p {
@@ -224,11 +236,11 @@ article div > p {
 article blockquote {
 	font-size: 2em;
 	font-weight: 200;
-	line-height: 2em;
+	line-height: 1.8em;
 
 	color: #555;
 
-	margin: 40px 0;
+	margin: 20px 0 25px;
 }
 
 article blockquote p {
@@ -237,7 +249,7 @@ article blockquote p {
 
 article blockquote ul {
 	margin-left: 3em;
-	margin-bottom: 40px;
+	margin-bottom: 25px;
 }
 article blockquote li {
 	color: #777;
@@ -275,6 +287,16 @@ article ol li {
 
 article pre {
 	font-family: monospace;
+}
+
+article a {
+	color: #1B4CE0;
+	display: inline-block;
+	line-height: 1em;
+
+	&:visited {
+		color: #8F0E51;
+	}
 }
 
 .ratio

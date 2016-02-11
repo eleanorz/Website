@@ -1,9 +1,6 @@
 
 # Business
 - The goal of business is to do things that are of service to society and to get the necessary funding to make that happen. Business owners don’t have ill intent to abuse their customers, but may do so when the incentive systems are not aligned.
-	- Nested Lists?
-	- Do they work?
-
 
 There is a relatively well known parable where a company’s CFO says the CEO, “what if we train them and they leave the company” to which the CEO responds, “what if we don’t train them and they stay?”
 

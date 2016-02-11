@@ -1,3 +1,5 @@
+> A nation as a society forms a moral person, and every member of it is personally responsible for his society
+> - Thomas Jefferson
 
 # Morality
 

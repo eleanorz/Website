@@ -4,27 +4,46 @@
 	"contents" : [
 
 		{
+			"name": "Truth"
+		},
+
+		{
+			"name": "Belief",
+			"url": "/philosophy/belief"
+		},
+
+		{
+			"name": "Knowledge",
+			"url": "/philosophy/knowledge"
+		},
+
+		{
+			"name": "Learnings",
+			"url": "/philosophy/learnings"
+		},
+
+		{
 			"name": "Humanity"
 		},
 
 		{
 			"name": "Existence",
-			"url": "/philosophy/Existence.html"
+			"url": "/philosophy/existence"
 		},
 
 		{
 			"name": "Meaning",
-			"url": "/philosophy/Meaning.html"
+			"url": "/philosophy/meaning"
 		},
 
 		{
 			"name": "Curiosity",
-			"url": "/philosophy/Curiosity.html"
+			"url": "/philosophy/curiosity"
 		},
 
 		{
 			"name": "Connection",
-			"url": "/philosophy/Connection.html"
+			"url": "/philosophy/connection"
 		},
 
 		{
@@ -33,26 +52,12 @@
 
 		{
 			"name": "Culture",
-			"url": "/philosophy/Culture.html"
+			"url": "/philosophy/culture"
 		},
 
 		{
 			"name": "Morality",
-			"url": "/philosophy/Morality.html"
-		},
-
-		{
-			"name": "Truth"
-		},
-
-		{
-			"name": "Knowledge",
-			"url": "/philosophy/Knowledge.html"
-		},
-
-		{
-			"name": "Learnings",
-			"url": "/philosophy/Learnings.html"
+			"url": "/philosophy/morality"
 		},
 
 		{
@@ -60,18 +65,28 @@
 		},
 
 		{
+			"name": "Rebirth",
+			"url": "/philosophy/rebirth"
+		},
+
+		{
 			"name": "Convergence",
-			"url": "/philosophy/Convergence.html"
+			"url": "/philosophy/convergence"
+		},
+
+		{
+			"name": "Alignment",
+			"url": "/philosophy/alignment"
 		},
 
 		{
 			"name": "Destiny",
-			"url": "/philosophy/Destiny.html"
+			"url": "/philosophy/destiny"
 		},
 
 		{
 			"name": "Imperative",
-			"url": "/philosophy/Imperative.html"
+			"url": "/philosophy/imperative"
 		}
 
 	]

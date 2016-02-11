@@ -9,32 +9,32 @@
 
 		{
 			"name": "Relationships",
-			"url": "/application/Relationships.html"
+			"url": "/application/relationships"
 		},
 
 		{
 			"name": "Education",
-			"url": "/application/Education.html"
+			"url": "/application/education"
 		},
 
 		{
 			"name": "Literature",
-			"url": "/application/Literature.html"
+			"url": "/application/literature"
 		},
 
 		{
 			"name": "Arts",
-			"url": "/application/Arts.html"
+			"url": "/application/arts"
 		},
 
 		{
 			"name": "Employment",
-			"url": "/application/Employment.html"
+			"url": "/application/employment"
 		},
 
 		{
 			"name": "Parenting",
-			"url": "/application/Parenting.html"
+			"url": "/application/parenting"
 		},
 
 		{
@@ -43,82 +43,92 @@
 
 		{
 			"name": "Accounting",
-			"url": "/application/Accounting.html"
+			"url": "/application/accounting"
 		},
 
 		{
 			"name": "Advertising",
-			"url": "/application/Advertising.html"
+			"url": "/application/advertising"
 		},
 
 		{
 			"name": "Agriculture",
-			"url": "/application/Agriculture.html"
+			"url": "/application/agriculture"
 		},
 
 		{
 			"name": "Business",
-			"url": "/application/Business.html"
+			"url": "/application/business"
+		},
+
+		{
+			"name": "Computing",
+			"url": "/application/computing"
 		},
 
 		{
 			"name": "Communications",
-			"url": "/application/Business.html"
+			"url": "/application/communications"
+		},
+
+		{
+			"name": "Economics",
+			"url": "/application/economics"
 		},
 
 		{
 			"name": "Energy",
-			"url": "/application/Energy.html"
+			"url": "/application/energy"
 		},
 
 		{
 			"name": "Environment",
-			"url": "/application/Environment.html"
+			"url": "/application/environment"
 		},
 
 		{
 			"name": "Entertainment",
-			"url": "/application/Business.html"
+			"url": "/application/entertainment"
 		},
 
 		{
 			"name": "Finance",
-			"url": "/application/Finance.html"
+			"url": "/application/finance"
 		},
 
 		{
 			"name": "Government",
-			"url": "/application/Government.html"
+			"url": "/application/government"
 		},
 
 		{
 			"name": "Healthcare",
-			"url": "/application/Healthcare.html"
+			"url": "/application/healthcare"
 		},
 
 		{
 			"name": "Insurance",
-			"url": "/application/Insurance.html"
+			"url": "/application/insurance"
 		},
 
 		{
 			"name": "Manufacturing",
-			"url": "/application/Manufacturing.html"
+			"url": "/application/manufacturing"
 		},
 
 		{
 			"name": "Science",
-			"url": "/application/Science.html"
+			"url": "/application/science"
 		},
 
 		{
 			"name": "Technology",
-			"url": "/application/Science.html"
+			"url": "/application/science"
 		},
 
 		{
 			"name": "Transportation",
-			"url": "/application/Transportation.html"
+			"url": "/application/transportation"
 		},
 
 		{

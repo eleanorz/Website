@@ -9,12 +9,12 @@
 
 		{
 			"name": "Ascension",
-			"url": "/technology/Ascension.html"
+			"url": "/technology/ascension"
 		},
 
 		{
 			"name": "Interact",
-			"url": "/technology/Interact.html"
+			"url": "/technology/interact"
 		},
 
 		{
@@ -23,32 +23,32 @@
 
 		{
 			"name": "Symbolic notation",
-			"url": "/technology/Symbolic-notation.html"
+			"url": "/technology/symbolic-notation"
 		},
 
 		{
 			"name": "Emergent complexity",
-			"url": "/technology/Emergent-complexity.html"
+			"url": "/technology/emergent-complexity"
 		},
 
 		{
 			"name": "Cloud computation platform",
-			"url": "/technology/Cloud-computation-platform.html"
+			"url": "/technology/cloud-computation-platform"
 		},
 
 		{
 			"name": "Distributed knowledge repository",
-			"url": "/technology/Distributed-knowledge-repository.html"
+			"url": "/technology/distributed-knowledge-repository"
 		},
 
 		{
 			"name": "Simulation and modeling",
-			"url": "/technology/Simulation-and-modeling.html"
+			"url": "/technology/simulation-and-modeling"
 		},
 
 		{
-			"name": "Statistical machine learning",
-			"url": "/technology/Statistical-machine-learning.html"
+			"name": "Experience based statistical learning",
+			"url": "/technology/experience-based-statistical-learning"
 		},
 
 		{
@@ -57,7 +57,7 @@
 
 		{
 			"name": "The mathematical theory of computation",
-			"url": "/technology/The-mathematical-theory-of-computation.html"
+			"url": "/technology/the-mathematical-theory-of-computation"
 		},
 
 		{

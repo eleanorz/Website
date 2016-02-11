@@ -26,6 +26,7 @@
     "gulp-cat": "~0.3.3",
     "gulp-jsoncombine": "~1.0.3",
     "lodash": "~4.1.0",
-    "gulp-copy": "0.0.2"
+    "gulp-copy": "0.0.2",
+    "gulp-s3-upload": "~1.5.1"
   }
 }

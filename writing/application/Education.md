@@ -1,3 +1,5 @@
+> What worries you, masters you.
+> - John Locke
 
 # Education
 
@@ -10,3 +12,18 @@
 - This will also give them more options and choices in their education. Activities that they are vested in will be attached with much more enthusiasm and accelerated the pace of learning
 - This will converge with gaming. Motivation can come from game design theory and be constructed in a way where they stay positively engaged 
 - John Dewey in Experience and Education
+
+> The educated differ from the uneducated as much as the living differ from the dead.
+> - Aristotle
+
+> I find that a great part of the information I have was acquired by looking up something and finding something else on the way.
+> - Franklin P. Adams
+
+> All experience is an arch, to build upon.
+>  - Henry Brooks Adams
+
+> A teacher affects eternity; he can never tell where his influence stops.
+>  - Henry Brooks Adams
+
+> What one knows is, in youth, of little moment; they know enough who know how to learn.
+>  - Henry Brooks Adams

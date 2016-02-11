@@ -1,4 +1,7 @@
 
+> Society is always taken by surprise at any new example of common sense.
+> - Ralph Waldo Emerson
+
 # Imperative
 
 Kant proposed the notion of the categorical imperative, the idea that even without religion, there is a set of moral rules that societies tend towards. Unlike hypothetical imperatives, such as having to eat when you are hungry, categorical imperatives remain true regardless of the situation.

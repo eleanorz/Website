@@ -1,3 +1,5 @@
+> I truly believe that individuals can make a difference in society. Since periods of change such as the present one come so rarely in human history, it is up to each of us to make the best use of our time to help create a happier world.
+> - Dalai Lama
 
 # Destiny
 

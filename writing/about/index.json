@@ -9,17 +9,17 @@
 
 		{
 			"name": "Contribute",
-			"url": "/about/Contribute.html"
+			"url": "/about/contribute"
 		},
 
 		{
 			"name": "Contact",
-			"url": "/about/Contact.html"
+			"url": "/about/contact"
 		},
 
 		{
 			"name": "Credits",
-			"url": "/about/Credits.html"
+			"url": "/about/credits"
 		},
 
 		{
@@ -28,7 +28,7 @@
 
 		{
 			"name": "Childhood",
-			"url": "/about/Childhood.html"
+			"url": "/about/childhood"
 		},
 
 		{
@@ -37,12 +37,12 @@
 
 		{
 			"name": "Visions of the future",
-			"url": "/about/Visions-of-the-future.html"
+			"url": "/about/visions-of-the-future"
 		},
 
 		{
 			"name": "Time traveling in Inner Mongolia",
-			"url": "/about/Time-traveling-in-Inner-Mongolia.html"
+			"url": "/about/time-traveling-in-inner-mongolia"
 		},
 
 		{
@@ -50,8 +50,13 @@
 		},
 
 		{
+			"name": "Quotes",
+			"url": "/about/quotes"
+		},
+
+		{
 			"name": "Markdown Samples",
-			"url": "/about/Sample.html"
+			"url": "/about/sample"
 		}
 
 	]

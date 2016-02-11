@@ -1,3 +1,5 @@
+> Historians and archaeologists will one day discover that the ads of our time are the richest and most faithful reflections that any society ever made of its entire range of activities.
+> - Marshall McLuhan
 
 # Advertising
 
